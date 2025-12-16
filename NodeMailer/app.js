@@ -12,8 +12,8 @@ const mailOptions = {
   from: "mo.haji.abdi1@gmail.com",
   to: "maherr.mahad@gmail.com",
   subject: "Hello from Node.js",
-  text: "This is a test email sent using Nodemailer and App Password!",
-  // text: "Test Email From Me\nAsc Wll, Xaalada Kwrn seetahay\nWaa tijaabo NodeMailer ah soo dhawoow",
+  // text: "This is a test email sent using Nodemailer and App Password!",
+  text: "Test Email From Me\nAsc Wll, Xaalada Kwrn seetahay\nWaa tijaabo NodeMailer ah soo dhawoow",
 };
 
 transporter.sendMail(mailOptions, (err, info) => {
